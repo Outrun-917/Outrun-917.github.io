@@ -1,3 +1,5 @@
+import Cta from "./Cta";
+
 function Component() {
   return (
     <section className="flex flex-col items-center text-center pb-23 border-b border-b-white border-solid">
@@ -13,12 +15,7 @@ function Component() {
         Based in the UK, I’m a front-end developer passionate about building
         accessible web apps that users love.
       </p>
-      <a
-        className="tracking-widest underline decoration-2 decoration-pastel-green underline-offset-12 font-bold text-xl"
-        href="#"
-      >
-        CONTACT ME
-      </a>
+      <Cta text="CONTACT ME" />
     </section>
   );
 }

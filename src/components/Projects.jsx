@@ -1,15 +1,70 @@
+import Cta from "./Cta";
+import Project from "./Project";
+
+const PROJECTS = [
+  {
+    img: "/src/assets/design-portfolio.png",
+    name: "DESIGN PORTFOLIO",
+    techs: ["HTML", "CSS"],
+    projectUrl: "#",
+    codeUrl: "#",
+  },
+  {
+    img: "/src/assets/e-learning-landing-page.png",
+    name: "E-LEARNING LANDING PAGE",
+    techs: ["HTML", "CSS"],
+    projectUrl: "https://github.com/Outrun-917/skilled-elearning-landing-page",
+    codeUrl:
+      "https://github.com/Outrun-917/skilled-elearning-landing-page/blob/main/index.html",
+  },
+  {
+    img: "/src/assets/todo-web-app.png",
+    name: "TODO WEB APP",
+    techs: ["HTML", "CSS", "JAVASCRIPT"],
+    projectUrl: "#",
+    codeUrl: "#",
+  },
+  {
+    img: "/src/assets/entertainment-web-app.png",
+    name: "ENTERTAINMENT WEB APP",
+    techs: ["HTML", "CSS", "JAVASCRIPT"],
+    projectUrl: "#",
+    codeUrl: "#",
+  },
+  {
+    img: "/src/assets/memory-game.png",
+    name: "MEMORY GAME",
+    techs: ["HTML", "CSS", "JAVASCRIPT"],
+    projectUrl: "#",
+    codeUrl: "#",
+  },
+  {
+    img: "/src/assets/art-gallery-showcase.png",
+    name: "ART GALLERY SHOWCASE",
+    techs: ["HTML", "CSS", "JAVASCRIPT"],
+    projectUrl: "#",
+    codeUrl: "#",
+  },
+];
+
 function Component() {
   return (
     <section>
-      <p className="flex font-bold text-4xl">
-        Projects
-        <a
-          className="ml-auto text-xl underline decoration-2 decoration-pastel-green underline-offset-16 tracking-widest"
-          href="#"
-        >
-          CONTACT ME
-        </a>
+      <p className="flex justify-between font-bold text-4xl">
+        <span>Projects</span>
+        <Cta text="CONTACT ME" />
       </p>
+
+      {PROJECTS.map((project) => (
+        <Project
+          key={project.name}
+          img={project.img}
+          name={project.name}
+          techs={project.techs}
+          projectUrl={project.projectUrl}
+          codeUrl={project.codeUrl}
+        />
+      ))}
     </section>
   );
 }
