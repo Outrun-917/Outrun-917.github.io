@@ -24,4 +24,4 @@ jobs:
         run: npm run build
 
       - name: Copy dist
-        run: copy dist
+        run: cp dist
