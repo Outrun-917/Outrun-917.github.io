@@ -1,9 +1,11 @@
+import adamKeyes from "../assets/adamkeyes.png";
+
 import Cta from "./Cta";
 
 function Component() {
   return (
     <section className="flex flex-col items-center text-center pb-23 border-b border-b-white border-solid">
-      <img className="mb-10" src="/src/assets/adamkeyes.png" alt="Adam Keyes" />
+      <img src={adamKeyes} alt="Adam Keyes" />
       <h1 className="font-bold text-4xl mb-6">
         Nice to meet you! I’m{" "}
         <span className="underline decoration-4 decoration-pastel-green underline-offset-8">
