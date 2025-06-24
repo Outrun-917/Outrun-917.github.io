@@ -1,5 +1,7 @@
-import frontendmentorSvg from "../assets/frontendmentor.svg"
-import linkedinSvg from "../assets/linkedin.svg"
+import githubSvg from "../assets/github.svg";
+import frontendmentorSvg from "../assets/frontendmentor.svg";
+import linkedinSvg from "../assets/linkedin.svg";
+import twitterSvg from "../assets/twitter.svg";
 
 function Component() {
   return (
@@ -11,9 +13,12 @@ function Component() {
         <ul className="flex flex-row gap-6">
           <li>
             <a href="#">
-              <img src={frontendmentorSvg}
-                alt="FrontendMentor Logo"
-              />
+              <img src={githubSvg} alt="GitHub Logo" />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img src={frontendmentorSvg} alt="FrontendMentor Logo" />
             </a>
           </li>
           <li>
@@ -23,7 +28,7 @@ function Component() {
           </li>
           <li>
             <a href="#">
-              <img src="/src/assets/twitter.svg" alt="Twitter Logo" />
+              <img src={twitterSvg} alt="Twitter Logo" />
             </a>
           </li>
         </ul>
