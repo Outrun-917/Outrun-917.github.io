@@ -10,3 +10,7 @@ jobs:
     steps:
       - name: testing ls
         run: ls -al
+      - name: Checkout
+        uses: action/checkout@v4
+      - name: testing ls
+        run: ls -al
