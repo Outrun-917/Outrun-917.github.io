@@ -11,6 +11,6 @@ jobs:
       - name: testing ls
         run: ls -al
       - name: Checkout
-        uses: action/checkout@v4
+        uses: actions/checkout@v4
       - name: testing ls
         run: ls -al
