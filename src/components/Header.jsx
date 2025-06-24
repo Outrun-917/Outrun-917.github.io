@@ -1,3 +1,6 @@
+import frontendmentorSvg from "../assets/frontendmentor.svg"
+import linkedinSvg from "../assets/linkedin.svg"
+
 function Component() {
   return (
     <header className="w-40 flex flex-col items-center text-center pt-5">
@@ -8,20 +11,14 @@ function Component() {
         <ul className="flex flex-row gap-6">
           <li>
             <a href="#">
-              <img src="/src/assets/github.svg" alt="Github Logo" />
-            </a>
-          </li>
-          <li>
-            <a href="#">
-              <img
-                src="/src/assets/frontendmentor.svg"
+              <img src={frontendmentorSvg}
                 alt="FrontendMentor Logo"
               />
             </a>
           </li>
           <li>
             <a href="#">
-              <img src="/src/assets/linkedin.svg" alt="LinkedIn Logo" />
+              <img src={linkedinSvg} alt="LinkedIn Logo" />
             </a>
           </li>
           <li>
