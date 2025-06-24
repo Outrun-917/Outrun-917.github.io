@@ -10,11 +10,18 @@ jobs:
     steps:
       - name: testing ls
         run: ls -al
+
       - name: Checkout
         uses: actions/checkout@v4
+
       - name: testing ls
         run: ls -al
+
       - name: Installing dependencies
         run: npm install
+
       - name: Bulding the app
         run: npm run build
+
+      - name: Copy dist
+        run: copy dist
