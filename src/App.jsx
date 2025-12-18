@@ -10,7 +10,7 @@ function App() {
     <div className="min-w-screen min-h-screen flex flex-col items-center font-space-grotesk">
       <Header />
       <Main />
-      <ContactForm />
+      {/* <ContactForm /> */}
       <Footer />
     </div>
   );

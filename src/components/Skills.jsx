@@ -3,27 +3,23 @@ import Skill from "./Skill";
 const SKILLS = [
   {
     name: "HTML",
-    years: "4",
+    years: "2",
   },
   {
     name: "CSS",
-    years: "4",
+    years: "2",
   },
   {
     name: "Javascript",
-    years: "4",
+    years: "2",
   },
   {
     name: "Accessibility",
-    years: "4",
+    years: "2",
   },
   {
     name: "React",
-    years: "3",
-  },
-  {
-    name: "Sass",
-    years: "3",
+    years: "~1",
   },
 ];
 

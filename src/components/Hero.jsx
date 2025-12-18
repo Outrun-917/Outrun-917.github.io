@@ -4,20 +4,20 @@ import Cta from "./Cta";
 
 function Component() {
   return (
-    <section className="flex flex-col items-center text-center pb-23 border-b border-b-white border-solid">
+    <section className="flex flex-col items-center text-center pb-6 border-b border-b-white border-solid">
       <img src={np} alt="Adam Keyes" />
-      <h1 className="font-bold text-4xl mb-6">
-        Nice to meet you! I’m{" "}
+      <h1 className="font-bold text-4xl mt-10 mb-6">
+        Bonjour, je m'appelle{" "}
         <span className="underline decoration-4 decoration-pastel-green underline-offset-8">
-          Adam Keyes
+          Nolan Penfold
         </span>
         .
       </h1>
       <p className="text-grey font-medium text-xl mb-6">
-        Based in the UK, I’m a front-end developer passionate about building
-        accessible web apps that users love.
+        Jeune développeur web, je suis passioné par la création de solutions
+        claires et intuitives.
       </p>
-      <Cta text="CONTACT ME" href="#" />
+      {/* <Cta text="ME CONTACTER" href="#" /> */}
     </section>
   );
 }

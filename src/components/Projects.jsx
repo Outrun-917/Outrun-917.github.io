@@ -52,7 +52,7 @@ function Component() {
     <section className="flex flex-col items-center pb-20">
       <p className="min-w-full flex justify-between font-bold text-4xl">
         <span>Projects</span>
-        <Cta text="CONTACT ME" href="#" />
+        {/* <Cta text="CONTACT ME" href="#" /> */}
       </p>
 
       {PROJECTS.map((project) => (
