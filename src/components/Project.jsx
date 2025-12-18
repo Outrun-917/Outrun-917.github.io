@@ -14,8 +14,8 @@ function Component({ img, name, techs, projectUrl, codeUrl }) {
       </ul>
 
       <div className="flex gap-8">
-        <Cta text="VIEW PROJECT" href={projectUrl} />
-        <Cta text="VIEW CODE" href={codeUrl} />
+        <Cta text="VOIR PROJET" href={projectUrl} />
+        <Cta text="VOIR CODE" href={codeUrl} />
       </div>
     </article>
   );

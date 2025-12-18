@@ -14,13 +14,13 @@ const SKILLS = [
     years: "2",
   },
   {
-    name: "Accessibility",
+    name: "Accessibilitée",
     years: "2",
   },
-  {
-    name: "React",
-    years: "~1",
-  },
+  // {
+  //   name: "React",
+  //   years: "~1",
+  // },
 ];
 
 function Component() {
