@@ -19,7 +19,7 @@ const PROJECTS = [
   },
   {
     img: "/src/assets/todo-web-app.png",
-    name: "TODO WEB APP",
+    name: "Kevin",
     techs: ["HTML", "CSS", "JAVASCRIPT"],
     projectUrl: "#",
     codeUrl: "#",
