@@ -3,7 +3,7 @@ import Project from "./Project";
 
 const PROJECTS = [
   {
-    img: "../src/assets/payapi.png",
+    img: "/payapi.png",
     name: "PayApi multi page, responsive website",
     techs: ["HTML", "CSS", "JS"],
     projectUrl:
@@ -11,21 +11,21 @@ const PROJECTS = [
     codeUrl: "https://github.com/Outrun-917/payapi-multi-page-website",
   },
   {
-    img: "../src/assets/forcefour.png",
+    img: "/forcefour.png",
     name: "Puissance 4",
     techs: ["HTML", "CSS", "JS"],
     projectUrl: "https://outrun-917.github.io/connect-four-game/",
     codeUrl: "https://github.com/Outrun-917/connect-four-game",
   },
   {
-    img: "../src/assets/pswrdgen.png",
+    img: "/pswrdgen.png",
     name: "Générateur de mots de passe",
     techs: ["HTML", "CSS", "JAVASCRIPT"],
     projectUrl: "#",
     codeUrl: "#",
   },
   {
-    img: "../src/assets/kevin.png",
+    img: "/kevin.png",
     name: "Kevin - Discord App / Bot",
     techs: ["Discord JS"],
     projectUrl:
