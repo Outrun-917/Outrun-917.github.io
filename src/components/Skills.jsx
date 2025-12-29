@@ -14,11 +14,19 @@ const SKILLS = [
     years: "2",
   },
   {
-    name: "Accessibilitée",
+    name: "Accessibilité",
     years: "2",
   },
   {
     name: "Git",
+    years: "1",
+  },
+  {
+    name: "Figma",
+    years: "2",
+  },
+  {
+    name: "Wordpress",
     years: "1",
   },
   // {
