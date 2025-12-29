@@ -1,11 +1,16 @@
+import githubSvg from "../assets/github.svg";
+import frontendmentorSvg from "../assets/frontendmentor.svg";
+import linkedinSvg from "../assets/linkedin.svg";
+import twitterSvg from "../assets/twitter.svg";
+
 function Component() {
   return (
-    <footer className="min-w-full bg-dark-grey flex pt-10 pb-15">
+    <footer className="min-w-full bg-dark-grey flex pt-10 pb-10">
       <nav className="w-40 ml-auto mr-auto flex flex-col items-center text-center">
         <a className="mb-5 font-bold text-2xl" href="#">
-          NolanPenfold
+          Nolan Penfold
         </a>
-        <ul className="flex flex-row gap-6">
+        {/* <ul className="flex flex-row gap-6">
           <li>
             <a href="#">
               <img src="/src/assets/github.svg" alt="Github Logo" />
@@ -29,7 +34,7 @@ function Component() {
               <img src="/src/assets/twitter.svg" alt="Twitter Logo" />
             </a>
           </li>
-        </ul>
+        </ul> */}
       </nav>
     </footer>
   );

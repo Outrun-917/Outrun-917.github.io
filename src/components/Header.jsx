@@ -10,7 +10,7 @@ function Component() {
         <a className="mb-5 font-bold text-2xl" href="#">
           NolanPenfold
         </a>
-        <ul className="flex flex-row gap-6">
+        {/* <ul className="flex flex-row gap-6">
           <li>
             <a href="#">
               <img src={githubSvg} alt="GitHub Logo" />
@@ -31,7 +31,7 @@ function Component() {
               <img src={twitterSvg} alt="Twitter Logo" />
             </a>
           </li>
-        </ul>
+        </ul> */}
       </nav>
     </header>
   );

@@ -17,6 +17,10 @@ const SKILLS = [
     name: "Accessibilitée",
     years: "2",
   },
+  {
+    name: "Git",
+    years: "1",
+  },
   // {
   //   name: "React",
   //   years: "~1",

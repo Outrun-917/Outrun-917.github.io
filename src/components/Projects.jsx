@@ -21,8 +21,8 @@ const PROJECTS = [
     img: "/pswrdgen.png",
     name: "Générateur de mots de passe",
     techs: ["HTML", "CSS", "JAVASCRIPT"],
-    projectUrl: "#",
-    codeUrl: "#",
+    projectUrl: "https://outrun-917.github.io/TP_Gererateur_MDP/",
+    codeUrl: "https://github.com/Outrun-917/TP_Gererateur_MDP",
   },
   {
     img: "/kevin.png",
