@@ -31,14 +31,6 @@ const PROJECTS = [
     projectUrl: "https://outrun-917.github.io/TP_Gererateur_MDP/",
     codeUrl: "https://github.com/Outrun-917/TP_Gererateur_MDP",
   },
-  {
-    img: "/kevin.png",
-    name: "Kevin - Discord App / Bot",
-    techs: ["Discord JS"],
-    projectUrl:
-      "https://discord.com/oauth2/authorize?client_id=1308439406796869682",
-    codeUrl: "https://github.com/Outrun-917/Kevin",
-  },
 ];
 
 function Component() {
