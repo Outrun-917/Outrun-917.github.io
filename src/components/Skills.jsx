@@ -14,25 +14,29 @@ const SKILLS = [
     years: "2",
   },
   {
-    name: "Accessibilité",
-    years: "2",
+    name: "PHP",
+    years: "1",
+  },
+  {
+    name: "React",
+    years: "~1",
+  },
+  {
+    name: "React Native",
+    years: "~1",
   },
   {
     name: "Git",
-    years: "1",
+    years: "2",
   },
   {
     name: "Figma",
     years: "2",
   },
   {
-    name: "Wordpress",
-    years: "1",
+    name: "Accessibilité",
+    years: "2",
   },
-  // {
-  //   name: "React",
-  //   years: "~1",
-  // },
 ];
 
 function Component() {

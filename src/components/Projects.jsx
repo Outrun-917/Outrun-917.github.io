@@ -3,6 +3,13 @@ import Project from "./Project";
 
 const PROJECTS = [
   {
+    img: "/taxis-app.png",
+    name: "Application de mise en relation entre clients et taxis",
+    techs: ["React Native", "Expo"],
+    projectUrl: "",
+    codeUrl: "",
+  },
+  {
     img: "/payapi.png",
     name: "PayApi multi page, responsive website",
     techs: ["HTML", "CSS", "JS"],
